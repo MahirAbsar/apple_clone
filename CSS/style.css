@@ -1,0 +1,314 @@
+* {
+  margin: 0;
+}
+.container {
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  flex-flow: row wrap;
+  justify-content: space-evenly;
+  line-height: 45px;
+}
+
+header a {
+  font-size: 17px;
+  color: lightgray;
+}
+.logo {
+  padding-top: 15px;
+}
+a {
+  text-decoration: none;
+}
+a:hover {
+  text-decoration: underline;
+}
+
+.covid-sec {
+  text-align: center;
+  color: whitesmoke;
+  background-color: #027bce;
+  line-height: 30px;
+}
+.floyd {
+  color: white;
+  text-align: center;
+  background-color: rgba(0, 0, 0, 1);
+  height: 600px;
+  line-height: 150px;
+}
+.floyd h1 {
+  font-size: 55px;
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  position: relative;
+  top: 65px;
+}
+.floyd a {
+  color: teal;
+  font-size: 30px;
+  position: relative;
+  bottom: 30px;
+}
+
+.iphone-SE {
+  text-align: center;
+  height: 700px;
+  margin-top: 20px;
+  color: beige;
+  background-color: black;
+  background-image: url(../Images/iphoneSE.png);
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: center;
+  width: 100%;
+}
+.iphone-h1 {
+  font-size: 60px;
+  font-weight: bolder;
+}
+
+.se-learn {
+  font-size: 22px;
+  position: relative;
+  top: 10px;
+  right: 50px;
+  color: rgb(10, 50, 200);
+}
+
+.se-buy {
+  font-size: 22px;
+  position: relative;
+  top: 10px;
+  left: 50px;
+  color: rgb(10, 50, 200);
+}
+.iphone-11 {
+  text-align: center;
+  margin-top: 20px;
+  background-image: url(../Images/iphone11.jpg);
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 700px;
+  width: 100%;
+}
+
+.ipadPro {
+  text-align: center;
+  margin-top: 20px;
+  background-image: url(../Images/ipadPro.jpg);
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 700px;
+  width: 100%;
+}
+.se-learn-pro {
+  font-size: 22px;
+  color: rgb(10, 50, 200);
+  position: relative;
+  top: 550px;
+  right: 470px;
+}
+.se-buy-pro {
+  font-size: 22px;
+  color: rgb(10, 50, 200);
+  position: relative;
+  top: 550px;
+  right: 420px;
+}
+
+.iphone_iwatch {
+  margin-top: 20px;
+  background-image: url(../Images/iphone_iwatch.png);
+  text-align: center;
+  margin-top: 20px;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  height: 700px;
+  width: 48%;
+  margin-left: 20px;
+  float: left;
+}
+.iphone_iwatch a {
+  position: relative;
+  top: 650px;
+  color: rgb(10, 50, 200);
+  font-size: 22px;
+}
+
+.appleApproach {
+  background-image: url(../Images/appleApproach.png);
+  background-position: center;
+  background-size: cover;
+  float: left;
+  margin-top: 20px;
+  margin-left: 20px;
+  height: 700px;
+  width: 48%;
+}
+
+.appleApproach h1 {
+  position: relative;
+  top: 60px;
+  font-size: 45px;
+  color: lightgray;
+}
+
+.appleApproach a {
+  position: relative;
+  left: 280px;
+  font-size: 18px;
+  color: rgb(10, 50, 200);
+  text-decoration: none;
+}
+
+.wwdc {
+  margin-top: 20px;
+  background-image: url(../Images/wwdc.jpg);
+  margin-left: 20px;
+  background-repeat: no-repeat;
+  height: 700px;
+  width: 48%;
+  background-position: center;
+  background-size: cover;
+  float: left;
+}
+
+.wwdc a {
+  font-size: 22px;
+  position: relative;
+  left: 290px;
+  top: 580px;
+  color: rgb(10, 50, 200);
+}
+.appleWatch {
+  margin-top: 20px;
+  background-image: url(../Images/appleWatch.jpeg);
+  background-position: center;
+  background-size: cover;
+  height: 700px;
+  width: 48%;
+  float: left;
+  margin-left: 20px;
+}
+.appleWatch h2 {
+  position: relative;
+  top: 70px;
+  left: 20px;
+}
+.appleWatch .se-learn-watch {
+  font-size: 22px;
+  color: rgb(10, 50, 200);
+  position: relative;
+  left: 280px;
+  top: 70px;
+}
+.appleWatch .se-buy-watch {
+  font-size: 22px;
+  color: rgb(10, 50, 200);
+  position: relative;
+  left: 290px;
+  top: 70px;
+}
+
+.centralPark {
+  margin-top: 20px;
+  background-image: url(../Images/centralPark.jpg);
+  background-position: center;
+  background-size: cover;
+  background-repeat: no-repeat;
+  height: 700px;
+  width: 48%;
+  float: left;
+  margin-left: 20px;
+}
+.centralPark .cp-a {
+  color: rgb(10, 50, 200);
+  font-size: 22px;
+  position: relative;
+  top: 650px;
+  left: 280px;
+}
+
+.appleCard {
+  margin-top: 20px;
+  background-image: url(../Images/appleCard.png);
+  background-position: center;
+  background-size: cover;
+  height: 700px;
+  width: 48%;
+  float: left;
+  margin-left: 20px;
+  margin-bottom: 20px;
+}
+.appleCard .ac-h2 {
+  position: relative;
+  top: 200px;
+}
+.appleCard .se-learn-card {
+  font-size: 22px;
+  color: rgb(10, 50, 200);
+  position: relative;
+  left: 300px;
+  top: 208px;
+}
+
+#lastpart ol {
+  font-size: 14px;
+  font-weight: 400;
+}
+#lastpart p {
+  text-align: inherit;
+  font-size: 12px;
+  font-weight: 800;
+  position: relative;
+  left: 40px;
+}
+#lastpart hr {
+  position: relative;
+  left: 40px;
+  width: 1450px;
+}
+
+#lastpart div ul {
+  list-style-type: none;
+  font-size: 14px;
+}
+ul a:hover {
+  text-decoration: none;
+}
+
+.first_list {
+  width: 20%;
+  float: left;
+}
+.second_list {
+  width: 20%;
+  float: left;
+}
+.third_list {
+  width: 20%;
+  float: left;
+}
+.fourth_list {
+  width: 25%;
+  float: left;
+}
+.copyright {
+  font-size: 20px;
+  width: 30%;
+  float: left;
+}
+
+.links {
+  font-size: 14px;
+  letter-spacing: 2px;
+  width: 50%;
+  float: left;
+}
+.usa {
+  width: 9%;
+  float: right;
+}
